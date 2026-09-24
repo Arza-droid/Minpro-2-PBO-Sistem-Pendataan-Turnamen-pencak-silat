@@ -79,8 +79,9 @@ public class PesertaTanding extends Peserta {
 ```
 
 
-## 4. Alur Proses CRUD
-Berikut adalah alur untuk proses CRUD pada menu peserta dan juga pertandingan
+## 4. Alur Program
+Pada menu awal kita dapat memilih menu peserta dan pertandingan  
+Berikut adalah alur program untuk proses CRUD pada menu peserta dan juga pertandingan
 ### Peserta
 
 | Fitur | Alur |
@@ -97,4 +98,6 @@ Berikut adalah alur untuk proses CRUD pada menu peserta dan juga pertandingan
 | **Create** | Tampil peserta → input ID Peserta 1 → pilih kategori → jika Tanding input ID Peserta 2, jika Seni otomatis `-1` → input hasil (opsional) → `tambahPertandingan()` → cari peserta → objek dibuat → masuk `daftarPertandingan` → counter naik |
 | **Read** | `lihatSemuaPertandingan()` → jika kosong tampil pesan, jika tidak tampilkan tiap data (Peserta 2 tampil "-" jika kosong) |
 | **Update** | Tampil pertandingan → input ID Pertandingan → input ulang peserta, kategori, hasil → `ubahPertandingan()` → cari data dan peserta → setter memperbarui data |
-| **Delete** | Tampil pertandingan → input ID → `hapusPertandingan()` → cari by ID → `remove()` dari `daftarPertandingan` |
+| **Delete** | Tampil pertandingan → input ID → `hapusPertandingan()` → cari by ID → `remove()` dari `daftarPertandingan` |  
+  
+Untuk mengakhiri atau keluar dari program kita perlu kembali ke menu utama dan memilih pilihan keluar
