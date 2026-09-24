@@ -1,4 +1,4 @@
-# Sistem Pendataan Pertandingan Pencak Silat
+# Sistem Pendataan Pendaftaran Turnamen Bela Diri Pencak Silat
 
 - **Nama**: Muhammad Arza Dwiarto Anugerah
 - **NIM**: 2509116007
